@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66e163be-91b5-424b-9905-81ff9a55e8c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/StartUp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StartUp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-    </list>
+    <list default="true" id="66e163be-91b5-424b-9905-81ff9a55e8c8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +173,7 @@
       <workItem from="1589927463793" duration="7763000" />
       <workItem from="1590424811719" duration="961000" />
       <workItem from="1590437308427" duration="294000" />
-      <workItem from="1590885205757" duration="21679000" />
+      <workItem from="1590885205757" duration="21926000" />
     </task>
     <servers />
   </component>
@@ -199,22 +193,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="370" y="78" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1589918847393" />
-    <state width="1212" height="48" key="GridCell.Tab.0.bottom" timestamp="1590913050730">
+    <state width="1212" height="155" key="GridCell.Tab.0.bottom" timestamp="1590948176114">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1212" height="48" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1590913050730" />
-    <state width="1212" height="48" key="GridCell.Tab.0.center" timestamp="1590913050730">
+    <state width="1212" height="155" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1590948176114" />
+    <state width="1212" height="155" key="GridCell.Tab.0.center" timestamp="1590948176114">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1212" height="48" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1590913050730" />
-    <state width="1212" height="48" key="GridCell.Tab.0.left" timestamp="1590913050730">
+    <state width="1212" height="155" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1590948176114" />
+    <state width="1212" height="155" key="GridCell.Tab.0.left" timestamp="1590948176114">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1212" height="48" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1590913050730" />
-    <state width="1212" height="48" key="GridCell.Tab.0.right" timestamp="1590913050730">
+    <state width="1212" height="155" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1590948176114" />
+    <state width="1212" height="155" key="GridCell.Tab.0.right" timestamp="1590948176114">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1212" height="48" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1590913050730" />
+    <state width="1212" height="155" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1590948176114" />
     <state width="1212" height="86" key="GridCell.Tab.1.bottom" timestamp="1590911909514">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -252,6 +246,6 @@
     <SUITE FILE_PATH="coverage/StartUp$testlite.coverage" NAME="testlite Coverage Results" MODIFIED="1590911681469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/StartUp$tester.coverage" NAME="tester Coverage Results" MODIFIED="1589931479566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/StartUp$test.coverage" NAME="test Coverage Results" MODIFIED="1589943565985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/StartUp$seed.coverage" NAME="seed Coverage Results" MODIFIED="1590913050713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/StartUp$seed.coverage" NAME="seed Coverage Results" MODIFIED="1590948176094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
