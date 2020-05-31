@@ -1,25 +1,31 @@
-import pyodbc, json, os
+import  json, os
+import sqlite3
 from flask import Flask, render_template, Response, request, redirect, url_for, jsonify
+
 
 
 # get daily user report for each month
 def get_month_brief(month):
     # sql command to get users for a particular month, given month
-    cursor.execute("SELECT AU_date AS Date, COUNT(DISTINCT(AU_ID)) AS Total_users FROM all_active WHERE	DATEPART(mm,"
-                   "AU_DATE) = ?  GROUP BY AU_date", month)
+    month = str(month).zfill(2)
+    cursor.execute("SELECT date(AU_date), COUNT(DISTINCT(AU_ID)) AS Total_users FROM all_active WHERE	strftime('%m',AU_DATE) = ?  GROUP BY AU_date", (month,))
+
     brief_file = cursor.fetchall()
+
+
     # returns a list with date and total users for that date
     return brief_file
 
-
+#get total count of active users for each month
 def get_month_total(z):
     allUsers = {}
     months = ['January', 'February', 'March', 'April', 'May']
     i = 0
     # loop to fetch users for each month and store into a dictionary
     while i < z:
+        h = str(i+1).zfill(2)
         total_months = cursor.execute(
-            "SELECT COUNT(DISTINCT(AU_ID)) AS total from all_active WHERE DATEPART(mm,AU_date) = ?", i + 1)
+            "SELECT COUNT(DISTINCT(AU_ID)) AS total from all_active WHERE strftime('%m',AU_date) = ?",(h,))
         temp = total_months.fetchone()
         # fills dictionary with month at that index with the first element of the list from SQL query
         allUsers[months[i]] = temp[0]
@@ -29,12 +35,10 @@ def get_month_total(z):
 
 
 # connect to SQL server
-cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER=[Insert Server Name];PORT=1433;DATABASE=techtest;'
-                      'UID=[insert user name];PWD=[Inser Password]')
-
-cursor = cnxn.cursor()
 
 app = Flask(__name__)
+cnxn = sqlite3.connect('C:/SQLite/techlite.db',check_same_thread=False)
+cursor = cnxn.cursor()
 
 
 @app.route("/")
