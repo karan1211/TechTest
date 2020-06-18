@@ -3,7 +3,7 @@
 
 C:\>cd FinalFlaskFile
 
-C:\>py -3 -m venv testenv
+C:\>py -3 -m venv testenv        [Creates Virtual Environment in the directory]
 
 C:\FinalFlaskFile>testenv\scripts\activate		[Activating Virtual Environment]
 
