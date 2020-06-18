@@ -1,17 +1,24 @@
 # TechTest
-Here are instructions for setting up a virtual environment in CMD 
-1. pip install virtualenv
-2. mkdir venv 
-3. cd venv
-4. virtualenv venv	
-5. venv\scripts\activate
-6. pip install flask
+*YOU MUST NEED THE PIP.py to install the dependencies in the Flask*\
 
+C:\>cd FinalFlaskFile
 
-Now continue the following steps to run the file
-1. Create a virtual environment using cmd (run as admin)
-2. Copy this folder into the virtual environment folder
-3. Activate the virtual environment (in the Scripts folder)
-4. Copy the path of seed.py into the cmd inside the virtual environment
-5. Copy the link in a browser
-6. Look at file, "Capture.jpg" for cmd instructions
+C:\>py -3 -m venv testenv
+
+C:\FinalFlaskFile>testenv\scripts\activate		[Activating Virtual Environment]
+
+(testenv) C:\FinalFlaskFile>pip -v				[Make sure, pip.py is been isntalled]
+
+python -m pip install --upgrade pip
+
+(testenv) C:\FinalFlaskFile>pip install flask     
+
+(testenv) C:\FinalFlaskFile>python.exe
+
+>>>import flask
+
+>>>exit()
+
+(testenv) C:\FinalFlaskFile>set FLASK_APP=seed.py        
+
+*Copy the link and paste it in the browser.*
