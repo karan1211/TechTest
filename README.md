@@ -11,6 +11,8 @@ Created views and implemented ad-hoc query to retrieve the count of users for to
 Presented the output on the web-page. [Frontend: HTML]
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 *YOU MUST NEED THE PIP.py to install the dependencies in the Flask*\
 
