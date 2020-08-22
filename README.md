@@ -1,6 +1,7 @@
 # TechTest
 
-Project is to find Last month's total Active-Users. I've built this full-stack project for my personal experience. /n
+Project is to find Last month's total Active-Users. I've built this full-stack project for my personal experience.
+
 Planned the Database model. [System design]
 Built The Relational-Database. [SQL server] [Migrated into SQLite for light weight review]
 Created views and implemented ad-hoc query to retrieve the count of users for total active users in every individual month. [Back-end: Python]
